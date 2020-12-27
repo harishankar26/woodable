@@ -20,11 +20,26 @@ namespace Woodable.Web
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap.js"));
+                      "~/Scripts/bootstrap.js",
+                      "~/Scripts/ion.rangeSlider.js",
+                      "~/Scripts/magnific-popup.js",
+                      "~/Scripts/owl.carousel.js",
+                      "~/Scripts/tilt.jquery.js",
+                      "~/Scripts/jquery.easypiechart.js",
+                      "~/Scripts/bigtext.js",
+                      "~/Scripts/main.js"
+                      ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/animate.css",
+                      "~/Content/font-awesome.css",
+                      "~/Content/ion-range-slider.css",
+                      "~/Content/linear-icons.css",
+                      "~/Content/magnific-popup.css",
+                      "~/Content/owl.carousel.css",
+                      "~/Content/theme.css"
+                      ));
         }
     }
 }
